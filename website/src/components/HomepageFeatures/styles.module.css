@@ -1,0 +1,30 @@
+.features {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.feature {
+    background: var(--ifm-code-background);
+    border-radius: var(--ifm-global-radius);
+    height: 100%;
+}
+
+.feature p {
+    margin-bottom: 0;
+}
+
+.featureSvgWrapper {
+    --border-primary-background: var(--ifm-code-background);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--ifm-global-radius);
+    height: 80px;
+    width: 80px;
+}
+
+.featureSvg {
+    height: 48px;
+    width: 48px;
+}
